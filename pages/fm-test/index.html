@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Fm Test</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+	<header>Шапка</header>
+	<div class="l-grid">
+		<div class="l-grid__col-sm">
+		</div>
+		<div class="l-grid__col-md l-grid__col_margin ">
+			<div class="c-avatar-rating">
+				<div class="c-avatar">
+					<img src="img/avatar.jpg" alt="Name Surname" class="c-avatar__img">
+					<div class="c-avatar__controlls">
+						<div class="c-avatar__delete">&times;</div>
+						<div class="c-avatar__edit">Редактировать</div>
+						<div class="c-avatar__update">Обновить</div>
+					</div>
+				</div>
+
+				<div class="c-rating">
+					<div class="c-rating__top">
+						<div class="c-total__marks">
+							<p class="c-total__name">Оценок</p>
+							<p class="c-total__value">51.8k</p>
+						</div>
+						<div class="c-total__customers">
+							<p class="c-total__name">Посещений за год</p>
+							<p class="c-total__value">120k</p>
+						</div>
+						<div class="c-rating__expand"></div>
+					</div>
+
+					<div class="c-rating__middle">
+						<div class="c-rating__graph_wrap">
+							<canvas id="ratingGraph" class="c-rating__graph">Картинка для тех, у кого не работает canvas</canvas>
+						</div>
+						<div class="c-rating__average">
+							<p class="c-rating__average_name">Рейтинг</p>
+							<p class="c-rating__average_value">3.89</p>
+						</div>
+
+					</div>
+					<div class="c-rating__bottom">
+						<div class="c-rating__mark">
+							<div class="c-rating__mark_diagram"></div>
+							<span class="c-rating__mark_mark">1</span>
+							<span class="c-rating__mark_percent"> 5%</span></div>
+						<div class="c-rating__mark">
+							<div class="c-rating__mark_diagram"></div>
+							<span class="c-rating__mark_mark">2</span><span class="c-rating__mark_percent">2%</span>
+						</div>
+						<div class="c-rating__mark">
+							<div class="c-rating__mark_diagram"></div>
+							<span class="c-rating__mark_mark">3</span><span class="c-rating__mark_percent">10%</span>
+						</div>
+						<div class="c-rating__mark">
+							<div class="c-rating__mark_diagram"></div>
+							<span class="c-rating__mark_mark">4</span><span class="c-rating__mark_percent">25%</span>
+						</div>
+						<div class="c-rating__mark">
+							<div class="c-rating__mark_diagram"></div>
+							<span class="c-rating__mark_mark">5</span><span class="c-rating__mark_percent">58%</span>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="l-grid__col-lg">
+
+			<div id="infoDemo" style="display: none">
+				<p style="font-weight: 500">Сетка </p>
+				Внутри основных колонок отступы слева и справа отсутствуют, как видно по прилеганию этого текста. Отступ сверху равен минимальному из двух (отступа от края страницы или отступа после средней колонки на 1920+). Отступ справа можно добавить к любой колонке, просто добавив нужный класс. <br> Сетка адаптивна в соответствии с заданием, при этом размеры отступов между указаными брейкпоинтами фиксированы.
+				<br>
+				<i style="font-style: italic; font-size: 14px">Не совсем понятно, может ли расширятся блок аватара и рейтинга больше, чем его ширина на следующем брейкпоинте (т.е. может ли на ширине экрана 1919 ширина средней колонки быть больше, чем ее ширина в 400px на 1920. В этом макете стоит ограничение на максимальную ширину, но его можно убрать. <br> В контрольных точках внешний вид соответствует макетам, а поведение сетки между контрольными точками, метод адаптивности (desktop-first или mobile-first), и все остальное - можно настроить, обсудив с дизайнером как оно должно быть.</i>
+				<br>
+				<br>
+				<input type="submit" value="Включить" id="gridColor"> раскраску сетки.
+				<br>
+				<br>
+
+				<p style="font-weight: 500">График</p>
+				График строится на основании массива координат Y каждой точки. Точки располагаются равномерно по оси X. Минимальное количество точек - 3. График интерполируется с помощью кривых Безье третьей степени, гарантировано проходит через все заданные точки. Рассчет опорных точек для кривых происходит автоматически. Размер графика автоматически подстраивается под введенные величины. Т.е. массив [100, 500, 100, 500, 100] даст такой же график как и [1, 5, 1, 5, 1]
+				<br> Массив по умолчанию: [0, 3.42, 2.15, 4.51, 3.89]
+				<br>
+				<br> Введите координаты Y точек: <br>
+				<input type="text" id="arraySrc" value="0, 3.42, 2.15, 4.51, 3.89">
+				<br> Выберите скорость:
+				<br>
+				<select id="drawSpeed">
+			<option value="0.5">0.5</option>
+			<option value="1" selected>1</option>
+			<option value="2">2</option>
+			<option value="5">5</option>
+		</select> <br> <input type="submit" id="arraySend" value="Нарисовать"><br>
+				<i style="font-style: italic; font-size: 10px">Сторонние библиотеки при построении не используются, функцию построения принимает массив  (координаты Y, обязательный параметр), и число (скорость отрисовки, необязательный параметр, по умолчанию - 1). В дальнейшем без проблем можно сделать все с еще более гибкими натройками.</i>
+				<br>
+				<br>
+				<p style="font-weight: 500">Диаграмма Info</p>
+				Столбчатая диаграмма строится на основании процентов, вписаных в углу каждой оценки. При изменении данных на странице - высота столбцов изменится автоматически.
+
+				<br>
+				<br> Изменить проценты для оценок:
+				<br> 1 - <input class="markPercent" type="text" style="width: 40px"> 2 - <input class="markPercent" type="text" style="width: 40px"> 3 - <input class="markPercent" type="text" style="width: 40px"> 4 - <input class="markPercent" type="text" style="width: 40px"> 5 - <input class="markPercent" type="text" style="width: 40px">
+				<input id="markPercentSet" type="submit" value="Перерисовать"> диаграмму.
+				<br><br>
+				<i style="font-style: italic; font-size: 14px">Сейчас столбцы анимированы средствами jQuery, для большей плавности можно переделать в canvas.</i>
+				<br>
+				<br>
+				<p style="font-weight: 500">Проблема отображения текста</p>
+
+				<br> Зададим для блока свойства:
+				<code style="font-style: italic; font-size: 12px"><br>
+				&lt;div id="fontTest"&gt;Lorem Ipsum&lt;/div&gt;<br><br>#fontTest {
+	<br>display: inline-block;
+	<br>background-color: #888;
+	<br>font-size: 50px;
+	<br>line-height: 1.15;
+		<br>
+			}</code><br><br>
+				<p>Вот как этот блок выглядит в компьютерных браузерах: </p>
+				<div class="font-test">Lorem Ipsum</div>
+				<p>А вот как он выглядит в браузере Opera на Android:</p>
+				<img src="img/fontScreenshotAndroidOpera.png" alt="#" style="border: 1px solid #666;  width: 300px">
+				<p>При этом в стандартном android-браузере и браузере Chrome (на моей версии android) он выглядит так же как и на компьютере:</p>
+				<img src="img/fontScreenshotAndroidBrowser.png" alt="#" style="border: 1px solid #666 ; width: 300px">
+				<p>Проблема заключается в том, что браузер Opera на Android отсчитывает высоту строки этого шрифта не от центра <i style="font-style: italic; font-size: 14px">(в отличие от всех остальных, проверенных мной)</i>, поэтому отступ от букв сверху - больше чем нужно, а снизу - меньше чем нужно. Таким образом при рендеринге весь текст "сдвигается" вниз.</p>
+				
+				<br>
+				<p>Одним из решений может быть определить список проблемных браузеров и устройств, и для пользователей использующих их изменить отступы у текста, который нужно отцентровать.</p>
+				<p>Для этого можно обернуть его в тег: </p><code style="font-style: italic; font-size: 12px">
+				<br>
+				&lt;div class="font-test"&gt;&lt;span class="font-fix"&gt;Lorem Ipsum&lt;/span&gt;&lt;/div&gt;
+			<br>.font-fix{
+			<br>display: block
+		<br>margin-top: -0.15em
+		<br>margin-bottom: 0.15em
+	
+		<br>}</code>
+				<br>
+				<br>
+				<p>Этот пример сдвинут вверх во всех нормальных браузерах, но зато в проблемных он расположен как нужно:</p>
+				<div class="font-test"><span class= "font-fix">Lorem Ipsum</span></div>
+				<br>
+				<br>
+				<p>Другим решением, возможно, может стать редактирование свойств самого шрифта, чтобы все браузеры правильно определяли для него высоту строки.</p>
+				<br>
+				<br>
+			</div>
+			<input id="infoToggle" type="submit" value="Посмотреть Отчет">
+
+
+		</div>
+	</div>
+
+	<footer>Футер или остальной контент</footer>
+
+	<script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>

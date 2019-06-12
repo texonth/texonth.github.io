@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.5 151.82668">
+    <defs>
+        <clipPath id="clipPath20" clipPathUnits="userSpaceOnUse">
+            <path id="path18" d="m 274.27,28.5117 -29.778,9.8594 c 0,0 3.793,150.7149 -50.558,161.2659 -35.844,41.531 5.511,1774.053 135.726,5.937 0,0 -44.566,-22.379 -53.004,-60.379 C 268.223,107.172 274.27,28.5117 274.27,28.5117 Z"/>
+        </clipPath>
+        <linearGradient id="linearGradient28" x1="0" x2="1" y1="0" y2="0" gradientTransform="matrix(342.302,-115.488,-104.178,-307.19,77.2895,572.506)" gradientUnits="userSpaceOnUse" spreadMethod="pad">
+            <stop id="stop22" offset="0" style="stop-opacity:1;stop-color:#929669"/>
+            <stop id="stop24" offset="0.230769" style="stop-opacity:1;stop-color:#929669"/>
+            <stop id="stop26" offset="1" style="stop-opacity:1;stop-color:#fdfcf0"/>
+        </linearGradient>
+        <clipPath id="clipPath38" clipPathUnits="userSpaceOnUse">
+            <path id="path36" d="m 290.324,174.051 c 0,0 258.762,170.426 198.137,524.371 -58.383,257.144 -196.215,341.678 -211.027,373.958 -16.305,22.83 -32.727,63.31 -32.727,63.31 l 11.004,-716.475 c 0,0 -22.77,-218.774 34.613,-245.164 z"/>
+        </clipPath>
+        <linearGradient id="linearGradient44" x1="0" x2="1" y1="0" y2="0" gradientTransform="matrix(239.701,-930.524,-1001.21,-160.521,202.693,1128.96)" gradientUnits="userSpaceOnUse" spreadMethod="pad">
+            <stop id="stop40" offset="0" style="stop-opacity:1;stop-color:#44aa3a"/>
+            <stop id="stop42" offset="1" style="stop-opacity:1;stop-color:#3d9439"/>
+        </linearGradient>
+        <clipPath id="clipPath54" clipPathUnits="userSpaceOnUse">
+            <path id="path52" d="m 229.34,164.527 c 0,0 -242.7267,165.586 -228.757969,457.746 C 14.5469,914.438 185.984,1058.09 219.375,1084.15 c 21.586,23.01 22.477,31.88 24.145,54.58 15.132,-32.5 12.621,-485.457 14.222,-538.398 C 263.965,394.238 246.328,203.43 229.34,164.527 Z"/>
+        </clipPath>
+        <linearGradient id="linearGradient60" x1="0" x2="1" y1="0" y2="0" gradientTransform="matrix(419.53,95.3215,131.096,-391.715,-24.9311,592.245)" gradientUnits="userSpaceOnUse" spreadMethod="pad">
+            <stop id="stop56" offset="0" style="stop-opacity:1;stop-color:#40a73c"/>
+            <stop id="stop58" offset="1" style="stop-opacity:1;stop-color:#5ebc45"/>
+        </linearGradient>
+    </defs>
+    <g id="g10" transform="matrix(1.3333333,0,0,-1.3333333,0,151.82667)">
+        <g id="g12" transform="scale(0.1)">
+            <g id="g16" clip-path="url(#clipPath20)">
+                <path id="path30" d="m 274.27,28.5117 -29.778,9.8594 c 0,0 3.793,150.7149 -50.558,161.2659 -35.844,41.531 5.511,1774.053 135.726,5.937 0,0 -44.566,-22.379 -53.004,-60.379 C 268.223,107.172 274.27,28.5117 274.27,28.5117" style="fill:url(#linearGradient28);fill-opacity:1;fill-rule:nonzero;stroke:none"/>
+            </g>
+            <g id="g34" clip-path="url(#clipPath38)">
+                <path id="path46" d="m 290.324,174.051 c 0,0 258.762,170.426 198.137,524.371 -58.383,257.144 -196.215,341.678 -211.027,373.958 -16.305,22.83 -32.727,63.31 -32.727,63.31 l 11.004,-716.475 c 0,0 -22.77,-218.774 34.613,-245.164" style="fill:url(#linearGradient44);fill-opacity:1;fill-rule:nonzero;stroke:none"/>
+            </g>
+            <g id="g50" clip-path="url(#clipPath54)">
+                <path id="path62" d="m 229.34,164.527 c 0,0 -242.7267,165.586 -228.757969,457.746 C 14.5469,914.438 185.984,1058.09 219.375,1084.15 c 21.586,23.01 22.477,31.88 24.145,54.58 15.132,-32.5 12.621,-485.457 14.222,-538.398 C 263.965,394.238 246.328,203.43 229.34,164.527" style="fill:url(#linearGradient60);fill-opacity:1;fill-rule:nonzero;stroke:none"/>
+            </g>
+        </g>
+    </g>
+</svg>

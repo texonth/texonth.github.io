@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90427816.chunk.css",
+    "main.js": "/static/js/main.afec7605.chunk.js",
+    "main.js.map": "/static/js/main.afec7605.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.74ddfac0.chunk.js": "/static/js/2.74ddfac0.chunk.js",
+    "static/js/2.74ddfac0.chunk.js.map": "/static/js/2.74ddfac0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a58e4dc3c579eff3a667cafdb7ed3d8a.js": "/precache-manifest.a58e4dc3c579eff3a667cafdb7ed3d8a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.90427816.chunk.css.map": "/static/css/main.90427816.chunk.css.map",
+    "static/media/css.svg": "/static/media/css.14c86d98.svg",
+    "static/media/git.svg": "/static/media/git.1e7beba6.svg",
+    "static/media/html.svg": "/static/media/html.79fcb3bc.svg",
+    "static/media/js.svg": "/static/media/js.dd60b11e.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.ae584155.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.c2c46982.svg",
+    "static/media/photo.jpg": "/static/media/photo.589d1289.jpg",
+    "static/media/react.svg": "/static/media/react.ad03ab04.svg",
+    "static/media/redux.svg": "/static/media/redux.4e231cdc.svg",
+    "static/media/remote.svg": "/static/media/remote.242dcb93.svg",
+    "static/media/sass.svg": "/static/media/sass.2ee7b986.svg",
+    "static/media/sorts.png": "/static/media/sorts.c6b325e5.png",
+    "static/media/svg.svg": "/static/media/svg.f7bde6a3.svg",
+    "static/media/vue.svg": "/static/media/vue.c6ef19cb.svg",
+    "static/media/webpack.svg": "/static/media/webpack.bd650f62.svg",
+    "static/media/workplace.svg": "/static/media/workplace.64b2dfa7.svg",
+    "static/media/zzz.svg": "/static/media/zzz.62057a2d.svg"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "main.css": "./static/css/main.f2d5e04e.chunk.css",
+  "main.js": "./static/js/main.27b1dc6e.chunk.js",
+  "main.js.map": "./static/js/main.27b1dc6e.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+  "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+  "static/css/2.ea232438.chunk.css": "./static/css/2.ea232438.chunk.css",
+  "static/js/2.55cc689f.chunk.js": "./static/js/2.55cc689f.chunk.js",
+  "static/js/2.55cc689f.chunk.js.map": "./static/js/2.55cc689f.chunk.js.map",
+  "index.html": "./index.html",
+  "precache-manifest.c7a3ac4776c8db60d43743879fa0e591.js": "./precache-manifest.c7a3ac4776c8db60d43743879fa0e591.js",
+  "service-worker.js": "./service-worker.js",
+  "static/css/2.ea232438.chunk.css.map": "./static/css/2.ea232438.chunk.css.map",
+  "static/css/main.f2d5e04e.chunk.css.map": "./static/css/main.f2d5e04e.chunk.css.map",
+  "static/media/medium.svg": "./static/media/medium.2be42526.svg",
+  "static/media/wiki.svg": "./static/media/wiki.f80ab8f0.svg"
+}

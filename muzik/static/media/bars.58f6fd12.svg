@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve"
+viewBox="0 0 53 50">
+ <g>
+  <polyline points="8,50 8,28 0,28 0,50 " fill="#ff325f"/>
+  <polyline points="17,50 17,21 9,21 9,50 " fill="#e92f6f"/>
+  <polyline points="26,50 26,12 18,12 18,50 " fill="#ca2c84"/>
+  <polyline points="35,50 35,26 27,26 27,50 " fill="#9626a9"/>
+  <polyline points="44,50 44,0 36,0 36,50 " fill="#6c22c7"/>
+  <polyline points="53,50 53,21 45,21 45,50 " fill="#451de2"/>
+ </g>
+</svg>
